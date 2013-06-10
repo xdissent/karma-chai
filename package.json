@@ -1,0 +1,25 @@
+{
+  "name": "karma-chai",
+  "description": "Chai for Karma",
+  "keywords": [
+    "karma",
+    "chai",
+    "mocha",
+    "should"
+  ],
+  "version": "0.0.0",
+  "author": "Greg Thornton <xdissent@me.com> (http://xdissent.com)",
+  "main": "./index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/xdissent/karma-chai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdissent/karma-chai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xdissent/karma-chai/issues"
+  },
+  "dependencies": {
+    "chai": "~1.6.1"
+  }
+}
