@@ -6,7 +6,7 @@ var pattern = function(file) {
 
 var framework = function(files) {
   files.unshift(pattern(path.join(__dirname, 'adapter.js')));
-  files.unshift(pattern(path.join(__dirname, 'node_modules/chai/chai.js')));
+  files.unshift(pattern(path.resolve(require.resolve('chai'), '../chai.js')));
 };
 
 framework.$inject = ['config.files'];
