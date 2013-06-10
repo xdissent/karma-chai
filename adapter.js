@@ -1,3 +1,5 @@
-(function(chai) {
-  chai.should();
-})(window.chai);
+(function(window) {
+  window.chai.should();
+  window.expect = window.chai.expect;
+  window.assert = window.chai.assert;
+})(window);
