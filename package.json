@@ -12,7 +12,7 @@
   "author": "Greg Thornton <xdissent@me.com> (http://xdissent.com)",
   "main": "./index.js",
   "license": "MIT",
-  "homepage": "https://github.com/xdissent/karma-chai",
+  "homepage": "http://xdissent.github.io/karma-ievms",
   "repository": {
     "type": "git",
     "url": "https://github.com/xdissent/karma-chai.git"
