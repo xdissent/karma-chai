@@ -3,24 +3,19 @@ karma-chai
 
 [Chai](http://chaijs.com) for [Karma](http://karma-runner.github.io)
 
-
-Requirements
-------------
-
-This module currently requires the `canary` version of Karma:
-
-```sh
-$ npm install 'karma@canary' --save-dev
-```
-
-Note that the Karma configuration file format has changed since `v0.8`. Use 
-`karma init` to generate a fresh config.
+[![NPM version](https://badge.fury.io/js/karma-ievms.png)](http://badge.fury.io/js/karma-ievms)
 
 
 Installation
 ------------
 
-Install the module from Github:
+Install the plugin from npm:
+
+```sh
+$ npm install karma-chai --save-dev
+```
+
+Or from Github:
 
 ```sh
 $ npm install 'git+https://github.com/xdissent/karma-chai.git' --save-dev
@@ -29,8 +24,8 @@ $ npm install 'git+https://github.com/xdissent/karma-chai.git' --save-dev
 Add `chai` to the `frameworks` key in your Karma configuration:
 
 ```coffee
-module.exports = (karma) ->
-  karma.configure
+module.exports = (config) ->
+  config.set
 
     # frameworks to use
     frameworks: ['mocha', 'chai']
