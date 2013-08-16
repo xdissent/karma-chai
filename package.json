@@ -8,7 +8,7 @@
     "mocha",
     "should"
   ],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Greg Thornton <xdissent@me.com> (http://xdissent.com)",
   "main": "./index.js",
   "license": "MIT",
