@@ -3,7 +3,7 @@ karma-chai
 
 [Chai](http://chaijs.com) for [Karma](http://karma-runner.github.io)
 
-[![NPM version](https://badge.fury.io/js/karma-ievms.png)](http://badge.fury.io/js/karma-ievms)
+[![NPM version](https://badge.fury.io/js/karma-chai.png)](http://badge.fury.io/js/karma-chai)
 
 
 Installation
