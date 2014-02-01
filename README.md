@@ -3,8 +3,7 @@ karma-chai
 
 [Chai](http://chaijs.com) for [Karma](http://karma-runner.github.io)
 
-[![NPM version](https://badge.fury.io/js/karma-chai.png)](http://badge.fury.io/js/karma-chai)
-
+[![NPM version](https://badge.fury.io/js/karma-chai.png)](http://badge.fury.io/js/karma-chai) [![Dependency status](https://david-dm.org/xdissent/karma-chai.png)](https://david-dm.org/xdissent/karma-chai) [![devDependency Status](https://david-dm.org/xdissent/karma-chai/dev-status.png)](https://david-dm.org/xdissent/karma-chai#info=devDependencies)
 
 Installation
 ------------
@@ -52,3 +51,8 @@ describe 'karma tests with chai', ->
     1.should.not.equal 2
     should.exist 123
 ```
+
+License
+-------
+
+The MIT License (MIT)
