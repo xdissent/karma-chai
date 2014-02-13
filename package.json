@@ -20,10 +20,8 @@
   "bugs": {
     "url": "https://github.com/xdissent/karma-chai/issues"
   },
-  "dependencies": {
-    "chai": "~1.9.0"
-  },
   "peerDependencies": {
+    "chai": "*",
     "karma": ">=0.10.9"
   }
 }
