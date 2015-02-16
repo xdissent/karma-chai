@@ -8,7 +8,7 @@
     "mocha",
     "should"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Greg Thornton <xdissent@me.com> (http://xdissent.com)",
   "contributors": [
     {
