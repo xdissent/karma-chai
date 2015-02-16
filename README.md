@@ -29,6 +29,13 @@ module.exports = (config) ->
     # frameworks to use
     frameworks: ['mocha', 'chai']
 
+    # chai config
+    client: {
+      chai: {
+        includeStack: true
+      }
+    }
+
     # ...
 ```
 
